@@ -11,9 +11,15 @@ public class Quote {
     String quoteDictator;
     String quoteMedia;
 
-    private void makeQuoteCode() { // generate the code for the quote
+    public void makeQuoteCode() { // generate the code for the quote
         Date yymmdd = new Date();
         quoteCode = yymmdd.toString().replaceAll("[\\p{Punct}\\s]+", "").toLowerCase().substring(3);
+    }
+
+    public void askQuoteCode(String userQuoteCode) {
+        if (userQuoteCode != null || userQuoteCode.isEmpty() || userQuoteCode.isBlank()) {
+            quoteCode = userQuoteCode;
+        }
     }
 
     public void getQuoteMedia(String media) {

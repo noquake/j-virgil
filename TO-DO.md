@@ -6,13 +6,27 @@
 
 ## -- General --
 
-## -- Main.java --
-
--- change input checking parts to depend on the array frather than hardcoded inputs
--- add else if, else statements to account for all arguments, NO FLAGS (yet)
 --
 
+## -- Main.java --
+
+** change input checking parts to depend on the array rather than hardcoded inputs **
+** add else if, else statements to account for basic arguments **
+** check if the input line is calling virgil at all **
+-- implement CREATEing quote to lexicon & manuscripts
+-- implement ADDing quote to lexicon & manuscripts
+-- implement UPDATEing quote from lexicon & manuscripts
+-- implement DELETEing quote from lexicon & manuscripts
+
 ## -- Quote.java --
+
+--
+
+## -- Lexicon.java --
+
+-- write append method + implement in main
+-- write update method + implement to main
+-- write delete method + implement to main
 
 # V2 Notes
 
