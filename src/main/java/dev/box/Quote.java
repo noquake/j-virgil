@@ -106,4 +106,12 @@ public class Quote {
             }
         }
     }
+
+    public void deleteQuote(String delQuote) {
+        String quotePath = "src/main/resources/manuscripts"; // desired directory of the manuscripts
+        File quote = new File(quotePath, delQuote);
+        if (!quote.exists()) {
+
+        }
+    }
 }

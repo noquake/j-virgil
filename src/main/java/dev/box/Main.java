@@ -43,7 +43,7 @@ public class Main {
                 // QUOTE CODE
                 Quote currQuote = new Quote();
                 System.out.println(
-                        "would you like to make a custom nickname for this quote (recommended) to keep track of it or use the default generator? y/n");
+                        "would you like to make a custom nickname for this quote (recommended) to keep track of it or use the default generator?  y/n \nfor example, 'breakingbad1' or 'westernfront2'");
                 input = scanner.nextLine();
                 if (input.equalsIgnoreCase("yes") || input.equalsIgnoreCase("y")) {
                     System.out.println("what would you like to nickname this quote?");
@@ -81,6 +81,14 @@ public class Main {
                 // ADD QUOTE
                 currQuote.addQuote();
                 System.out.println("quote recorded");
+
+            }
+
+            if (isCallingVirgil(arguments) && arg1.equalsIgnoreCase("rm")) { // DELETE QUOTE
+                // print the contents of lexicon
+                System.out.println("enter the nickname/code of the quote you want to delete");
+                input = scanner.nextLine();
+
             }
 
             // else if (input.equalsIgnoreCase("virgil add"))

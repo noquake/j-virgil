@@ -1,12 +1,20 @@
-# V1 OBJECTIVES
+# Virgil (JB)
 
-> Have a continuous program that can CREATE, ADD, DELETE, and UPDATE different quote txt files in a directory called manuscript
-> Keep the names of app quotes in a singular file called lexicon, APPEND to lexicon on creation and REMOVE upon deletion
+Virgil JB is the first build. This Beta version is written entirely in Java + Bash and is more of proof-of-concept that I can get this thing working.
+
+All my friends know I love movies, and my older friends know I love books. Through these arts, I've become increasingly attracted to good writing. Since middle school I've kept a running document of my favorite quotes from friends, familiy, and notable pieces of cinema and literature, the problem is I can only relive this snippets when I look for them. Virgil is command-line based tool to record, edit, and store these snippets and display them in my terminal.
+
+# JB/BETA OBJECTIVES
+
+> Have a continuous program that can CREATE, ADD, DELETE, and UPDATE different quotes stored as text files in a directory
+> Keep a legend of currently tracked quotes in a file called "lexicon"
 > Don't worry about proper code practice, just hve something running for V2
 
-## -- General --
+# To-Do
 
---
+## -- In General --
+
+-- look into writing actual tests?
 
 ## -- Main.java --
 
