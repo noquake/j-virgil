@@ -2,6 +2,7 @@ package dev.box;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Year;
 import java.util.Date;
 
 public class Quote {
@@ -14,11 +15,13 @@ public class Quote {
 
     public void makeQuoteCode() { // generate the code for the quote
         Date yymmdd = new Date();
+        int year = Year.now().getValue();
+        System.out.println(year);
         quoteCode = yymmdd.toString().replaceAll("[\\p{Punct}\\s]+", "").toLowerCase().substring(3);
     }
 
     public void askQuoteCode(String userQuoteCode) {
-        if (userQuoteCode != null || userQuoteCode.isBlank()) {
+        if (userQuoteCode.isBlank()) {
             quoteCode = userQuoteCode;
         }
     }
@@ -107,11 +110,13 @@ public class Quote {
         }
     }
 
-    public void deleteQuote(String delQuote) {
+    public void deleteQuote(String delQuote) throws IOException {
         String quotePath = "src/main/resources/manuscripts"; // desired directory of the manuscripts
         File quote = new File(quotePath, delQuote);
-        if (!quote.exists()) {
-
+        if (!quote.delete()) {
+            System.out.println("error! this quote could not be deleted");
+        } else if (quote.delete()) {
+            System.out.println("quote '\s' was successfully deleted");
         }
     }
 }

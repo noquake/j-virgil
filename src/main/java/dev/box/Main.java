@@ -4,12 +4,8 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
-    String manMedia = "\"from what media did you get this quote from? if no media, leave blank, here are some examples \\n"
-            + //
-            "movie, year: The Godfather, 1972 \\n" + //
-            "show S#, E#: Better Call Saul, S1 E4 \\n" + //
-            "song (album) artist: I Just Died (All I Have) Amerie \\n" + //
-            "book, author year: Dune Messiah, Frank Herbert (1969)";
+
+    static String man = "Virgil, blah blah blah";
 
     public static String[] inputAsArray(String input) {
         if (input == null || input.isEmpty()) {
@@ -69,6 +65,7 @@ public class Main {
                         "from what media did you get this quote from? if no media, leave blank, here are some examples \nmovie, year: The Godfather, 1972 \nshow S#, E#: Better Call Saul, S1 E4 \nsong (album) artist: I Just Died (All I Have) Amerie \nbook, author year: Dune Messiah, Frank Herbert (1969)");
                 input = scanner.nextLine();
                 currQuote.setQuoteMedia(input);
+
                 // code to append it to lexicon
                 currQuote.getQuoteMedia();
 
@@ -91,10 +88,12 @@ public class Main {
 
             }
 
-            // else if (input.equalsIgnoreCase("virgil add"))
-
             else if (arg1.equalsIgnoreCase("end")) { // Close the program
                 run = false;
+            }
+
+            if (isCallingVirgil(arguments) && arg1.equalsIgnoreCase("man")) { // PRINT MAN PAGE
+                System.out.println(man);
             }
 
             else {

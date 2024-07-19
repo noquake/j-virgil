@@ -25,6 +25,7 @@ All my friends know I love movies, and my older friends know I love books. Throu
 -- implement ADDing quote to lexicon & manuscripts
 -- implement UPDATEing quote from lexicon & manuscripts
 -- implement DELETEing quote from lexicon & manuscripts
+-- write manuals for other methods
 
 ## -- Quote.java --
 
