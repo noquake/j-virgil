@@ -55,7 +55,7 @@ public class Quote {
     public void setQuoteBody(String body) {
         this.quoteBody = body;
         System.out.println("body recorded");
-        makeFragment(quoteBody);
+        makeQuoteBodyFragment(quoteBody);
         System.out.println("body fragment updated");
     }
 
@@ -63,8 +63,9 @@ public class Quote {
         System.out.println(quoteBody);
     }
 
-    public void makeFragment(String quoteBody) {
-        quoteBodyFragment = quoteBody.substring(0, 10);
+    public String makeQuoteBodyFragment(String quoteBody) {
+        quoteBodyFragment = quoteBody.substring(0, 25);
+        return quoteBodyFragment;
     }
 
     public void addQuote() {

@@ -1,5 +1,0 @@
-31 May - 
-    Idea. Might abolish the mission to recreate the application using bash inputs instead of strictly java code. I think I can do this by just making a "mode" boolean that helps decide which kind of methods (java/bash) the application will be using at runtime. Obviously, nothing like this would be carried over into the final form, but it'd be cool to just keep building into what we already have.
-    
-    That aside, the current goal is to build out the rest of the jaav functions and finally start putting in the methods to edit lexicon.
-

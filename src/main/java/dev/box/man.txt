@@ -1,0 +1,19 @@
+Name
+jvirgil - java-virgil
+
+Synopsis
+jvir [OPTION] ... [FILE]
+
+Description
+Tool that allows a user to create a local library of their favorite lines from their favorite books, movies, ongs etc. jvirgil then (1)randomly picks one of these quotes to display in the prompt of your preferred terminal application, or (2)return a randomly selected quote upon request
+
+-a, --add
+create a new quote file to be added to the library and append its name+preview to lexicon
+
+-s, --show
+display the current list of files in the lexicon as well as their previews/fragments of the text
+
+-d [FILE], --delete
+remove a specified file from the library as well as removing its entry from the lexicon
+
+etc.......
