@@ -2,7 +2,15 @@
 
 jvirgil is the first build. This Beta version is written entirely in Java and is more of proof-of-concept that I can get this thing working.
 
-All my friends know I love movies, and my older friends know I love books. I've become increasingly attracted to good writing. Since middle school I've kept a running document of my favorite quotes from friends, familiy, and notable pieces of cinema and literature, the problem is I can only relive this snippets when I look for them. Virgil is command-line based tool to record, edit, and store these snippets and display them in my terminal whenever I open it for the FIRST time. now i have to figure out how to do that.
+All my friends know I love movies, and my oldest friends know I love books. I've become increasingly attracted to good writing. I've kept a running document of my favorite quotes from friends, familiy, and notable pieces of cinema and literature, the problem is I can only relive this snippets when I look for them. Virgil is command-line based tool to record, edit, and store these snippets and display them in my terminal whenever I open it for the first time [that day, every 12 hours? every session TBD]. Now i have to figure out how to do that.
+
+# Installation
+
+Who knows. LEARN how to make packages.
+
+# Usage
+
+use ```virgil --help``` to print the list of supported commands.
 
 # JVIRGIL OBJECTIVES
 
@@ -14,7 +22,7 @@ All my friends know I love movies, and my older friends know I love books. I've 
 
 ## -- In General --
 
--- figure out how to write actual tests??
+-- figure out how to write actual tests?
 
 ## -- Main.java --
 
