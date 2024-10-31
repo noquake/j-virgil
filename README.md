@@ -20,11 +20,11 @@ use ```virgil --help``` to print the list of supported commands.
 
 # To-Do
 
-## -- In General --
+## In General
 
 -- figure out how to write actual tests?
 
-## -- Main.java --
+## Main.java
 
 ** change input checking parts to depend on the array rather than hardcoded inputs **
 ** add else if, else statements to account for basic arguments **
@@ -36,12 +36,12 @@ use ```virgil --help``` to print the list of supported commands.
 - implement DELETEing quote from lexicon & manuscripts
 - write manuals for other methods
 
-## -- Quote.java --
+## Quote.java
 
 - figure out how to stylize the outputs of the 'man' page to highlight/bold certain keywords fo the user
 - change the commands so that they take in the actual flags instead of the extra words
 
-## -- Lexicon.java --
+## Lexicon.java
 
 - write append method + implement in main
 - write update method + implement to main
@@ -51,6 +51,3 @@ use ```virgil --help``` to print the list of supported commands.
 
 > new class to control commands? feed gpt "im building a terminal application, how do i create a class of supported commands in java" and observe the proposed interface
 > work to use more bash commands instead of hardcoding certain methods in java
-
-08-11-24
-going to put a close to jvirgil and stop procrastinating. I'll start practicing C and figure out how to build this out the way I want instead of scrapping and making this thing messier and messier. it's been real.
